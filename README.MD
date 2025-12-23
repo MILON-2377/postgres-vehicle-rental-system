@@ -6,23 +6,23 @@ This project is a vehicle rental management system that allows customers to book
 ## Features
 
 
-**User Management**:
-    -Customer and admin user roles.
-    -Admin can manage users and their roles.
+- **User Management**:
+    - Customer and admin user roles.
+    - Admin can manage users and their roles.
 
-**Vehicle Management**:
-    -Admin can add, update, and delete Vehicles.
-    -Vehicles have attributes like type, model, registration number, daily rate, and availability.
+- **Vehicle Management**:
+    - Admin can add, update, and delete Vehicles.
+    - Vehicles have attributes like type, model, registration number, daily rate, and availability.
 
-**Booking System**:
-    -Customers can book available vehicles.
-    -Admin can view and manage bookings (pending, confirmed, completed, and cancelled).
-    -Vehicles' availability is updated based on booking status.
+- **Booking System**:
+    - Customers can book available vehicles.
+    - Admin can view and manage bookings (pending, confirmed, completed, and cancelled).
+    - Vehicles' availability is updated based on booking status.
 
 ## Technologies Used
 
-**PostgreSQL**: 
-    -For managing data, including users,   vehicles, and bookings.
+- **PostgreSQL**: 
+    - For managing data, including users,   vehicles, and bookings.
 
 
 ### Database Schema
@@ -168,10 +168,10 @@ where v.vehicle_id in (
 ### Installation
 
 
-**PostgreSQL database**:
-    -Install and setup PostgreSQL on your machine.
-    
-**Database Setup**:
+- **PostgreSQL database**:
+    - Install and setup PostgreSQL on your machine.
+
+- **Database Setup**:
     - Create the vehicle_rental database and run the schema SQL file to create tables and relationships.
 
 
